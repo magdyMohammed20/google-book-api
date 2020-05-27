@@ -17,3 +17,16 @@ header h1{
 header i{
   margin-right: 7px;
 }
+
+.search-area{
+  text-align: center;
+  padding: 10px 0;
+}
+
+.search-area input{
+  margin-right: 5px;
+}
+
+.search-area button{
+  padding: 4px 0;
+}
