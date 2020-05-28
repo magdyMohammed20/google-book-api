@@ -30,3 +30,22 @@ header i{
 .search-area button{
   padding: 4px 0;
 }
+
+
+.book-card{
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.book-card i{
+  color: #A2A2A2
+}
+
+.book-card p{
+  margin: 7px 0;
+}
+.card-body{
+  padding: 0 20px;
+}
