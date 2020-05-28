@@ -27,8 +27,13 @@ header i{
   margin-right: 5px;
 }
 
-.search-area button{
+.search-area button,
+.search-area select{
   padding: 4px 0;
+}
+
+.search-area select{
+  margin-left: 10px;
 }
 
 .book-list{

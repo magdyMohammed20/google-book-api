@@ -10,7 +10,7 @@ const BookCard = (props) => {
             <div className="card-body">
                 <p>{title}</p>
                 <p>By : <i>{authors.join(' & ')}</i></p>
-                <p>Published: {new Date(publishedDate).getFullYear()}</p>
+                <p>Published: {publishedDate === '0000' ? 'UnKnown' : new Date(publishedDate).getFullYear()}</p>
                 <p>Pages: {pageCount} </p>
             </div>
         </div>
