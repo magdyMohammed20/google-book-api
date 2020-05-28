@@ -31,11 +31,13 @@ header i{
   padding: 4px 0;
 }
 
+.book-list{
+  padding: 30px;
+}
 
 .book-card{
   width: 25%;
   display: inline-block;
-  text-align: center;
   margin: 10px 0;
 }
 
@@ -46,6 +48,7 @@ header i{
 .book-card p{
   margin: 7px 0;
 }
+
 .card-body{
-  padding: 0 20px;
+  padding: 0 10px;
 }
